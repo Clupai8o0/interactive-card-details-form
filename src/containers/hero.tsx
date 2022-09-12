@@ -1,7 +1,7 @@
 function HeroSide() {
   return (
-		<div className="bg-hero-mob lg:bg-hero-desk bg-no-repeat w-full bg-cover relative h-52">
-			<div className="absolute w-3/4 top-28 z-10 left-4">
+		<div className="bg-hero-mob lg:bg-hero-desk bg-no-repeat w-full bg-cover relative h-56">
+			<div className="absolute w-64 top-32 z-10 left-4">
 				<img src="bg-card-front.png" alt="Credit Card Front" />
 
 				{/* Card Logo */}
@@ -21,8 +21,10 @@ function HeroSide() {
 					</div>
 				</div>
 			</div>
-			<div className="absolute w-3/4 top-10 right-4">
+			<div className="absolute w-64 top-10 right-4">
 				<img src="bg-card-back.png" alt="Credit Card Back" />
+        {/* CV */}
+        <p className="absolute text-white right-8 top-16 text-[8px] opacity-80">000</p>
 			</div>
 		</div>
 	);
